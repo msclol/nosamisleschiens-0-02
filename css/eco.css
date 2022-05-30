@@ -1,0 +1,98 @@
+
+        .myNav{
+            background: #1a1a1a; 
+            color: #fff;
+            display: flex;
+            justify-content: space-between; /*Place nos éléments sur l'axe principal l'un à côté de l'autre*/
+            padding: 16px;
+
+        }
+
+        .headerNav ul li {
+            padding-left: 1rem;
+            padding: auto;
+        }
+
+        .headerNav ul li a {
+            color: #37372b;
+            text-decoration: none;
+        }
+
+        .headerNav ul li a:hover {
+            background-color: white;
+            
+        }
+        .headerNav ul li a:visited {
+            color: #37372b;
+            
+        }
+
+        .headerActive{
+            text-decoration: underline;
+            color: rgb(80, 76, 76); 
+            font-weight: bolder;
+        }
+
+        
+       header nav div  ul li a:visited{
+            color:#37404e !important;
+            
+        }
+
+        .myLogo{
+            width:50px;
+            height: 50px;
+            margin: auto;
+        
+        }
+
+
+      
+
+      /*  .navbar1{
+            display: flex;
+            list-style-type: none;
+            background-color: #bdac8a;
+            color: #fff;
+            margin-bottom: 0;
+            justify-content: space-between;
+            padding: 16px;   
+                   
+        }
+        */
+
+        .navFooter ul{
+            display: flex;
+            list-style: none;        
+        }
+
+          .navFooter ul li a{
+            color: #fff; 
+            padding: 12px; 
+            text-decoration: none;      
+        }
+
+        .navFooter ul li a:hover { 
+            background-color: #fff;
+            color: #1a1a1a;
+            border-radius: 4px;
+           }
+        
+        .navFooter{
+            margin:0; 
+            padding: 0;
+            bottom: 0; 
+            box-sizing: border-box;
+            display: flex;
+            background: #887e5c;
+            position: fixed;
+            width: 100%;
+            padding: 1rem;
+            font-size: 0.86rem;
+            color: #FFFFFF;
+            justify-content: space-between;
+            
+            
+            
+        }
+    

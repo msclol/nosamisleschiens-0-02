@@ -1,0 +1,3 @@
+#ignoring directory : map
+map/
+/node_modules
