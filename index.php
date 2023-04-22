@@ -1,3 +1,5 @@
 <?php
 
-include_once ('index.html');
+include_once'templates/header.php';
+include_once'templates/main.php';
+include_once'templates/footer.php';
