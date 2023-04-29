@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <!--<link rel="stylesheet" href="public/css/header.css">-->
     <script
       src="https://kit.fontawesome.com/adb4e7c780.js"
@@ -16,13 +16,13 @@
   </head>
   <body>
     <header>
-      <div class="banniere-head">
-        <img
+      <div class="header">
+        <img class="header__image"
           src="img/joli_chien.jpg"
           alt="logo de l'association"
-          class="logo"
+          
         />
-        <div><span class="text-banniere">nos amis les chiens</span></div>
+        <div><span class="header__text-banniere">nos amis les chiens</span></div>
       </div>
       -
       <label for="ch" id="lab"></label>
